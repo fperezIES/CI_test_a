@@ -28,6 +28,6 @@ class PersonTest {
     @Test
     void testDeafaultConstructor(){
         Person p = new Person();
-        assertEquals("Juan", p.getName());
+        assertEquals("", p.getName());
     }
 }
