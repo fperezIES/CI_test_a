@@ -7,6 +7,10 @@ public class Person {
         this.name = name;
     }
 
+    public Person(){
+        this.name = "";
+    }
+
     public String getName() {
         return name;
     }

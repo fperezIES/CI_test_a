@@ -24,4 +24,10 @@ class PersonTest {
         person.setName("Juan");
         assertEquals("Juan", person.getName());
     }
+
+    @Test
+    void testDeafaultConstructor(){
+        Person p = new Person();
+        assertEquals("Juan", p.getName());
+    }
 }
