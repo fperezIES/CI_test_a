@@ -17,4 +17,11 @@ class PersonTest {
         Person person = new Person("Pedro");
         assertEquals("Pedro", person.getName());
     }
+
+    @Test
+    void setName() {
+        Person person = new Person("Pedro");
+        person.setName("Juan");
+        assertEquals("Pedro", person.getName());
+    }
 }
