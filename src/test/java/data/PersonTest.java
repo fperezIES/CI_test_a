@@ -30,4 +30,9 @@ class PersonTest {
         Person p = new Person();
         assertEquals("", p.getName());
     }
+    @Test
+    void testAgeConstructor(){
+        Person p = new Person("Juan", 25);
+        assertEquals(27, p.getAge());
+    }
 }
